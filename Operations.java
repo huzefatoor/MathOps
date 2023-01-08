@@ -39,6 +39,14 @@ public class Operations {
         return minus;
     }
 
+    public static int divide(int a, int b){
+        int z = 0;
+        if (a != 0 && b !=0){
+            z = a/b;
+        }
+        return z;
+    }
+
     public static int minus(int a, int b) {
         int result = a - b;
 

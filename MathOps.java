@@ -17,5 +17,8 @@ public class MathOps extends Operations{
 
         int result = getNegativeNumber(-20, -4);
         System.out.println(result);
+
+        double results = divide(2, 2);
+        System.out.println(results);
     }
 }
